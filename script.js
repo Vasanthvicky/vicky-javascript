@@ -46,3 +46,48 @@ var kingdom;
 console.log(kingdom);// result is undefined -> because variable is declared and it's not intialized.
 
 console.log(typeof age); // typeof is a operaton... -> too find the data type.
+
+//arithmetic operators:
+//addition
+var a = 10;
+var b = 20;
+console.log(a+b);
+
+var result = 10 + 20;
+console.log(result);
+
+//substraction
+result = result -5;
+console.log(result);
+
+//multiplication
+result = result * 2;
+console.log(result);
+
+//divition
+result = result / 5;
+console.log(result);
+
+//modulus
+result = result % 3;
+console.log(result);
+
+//increment operator:
+result = result + 1;
+console.log(result);
+
+result++
+console.log(result);
+
+var otherResult = ++result + 5;
+console.log(otherResult);
+
+var anotherResult = result++ + 3;
+console.log(anotherResult);
+
+var lang = "Javascript"
+console.log("Hello, " + lang + "!");
+
+//decrement operator 
+result--
+console.log(result);
