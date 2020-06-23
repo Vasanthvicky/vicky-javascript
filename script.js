@@ -91,3 +91,15 @@ console.log("Hello, " + lang + "!");
 //decrement operator 
 result--
 console.log(result);
+
+//Relational and Logical Operators
+console.log('15 < 9 = ', 15 < 9);
+console.log('15 > 9 = ', 15 > 9 );
+console.log('15 <= 9 = ', 15 <= 9 );
+console.log('15 >=9  = ', 15 >=9 );
+console.log('15 == 15 = ', 15 == 15);
+console.log( '15 != 15 = ', 15 !=15);
+console.log('15 == 15 = ', 15 == "15");
+console.log( '15 != 15 = ', 15 !="15");
+console.log('15 == 15 = ', 15 === "15");
+console.log( '15 != 15 = ', 15 !== "15");
